@@ -48,7 +48,7 @@ public class MatchesFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    String uri = "https://api.football-data.org/v4/matches";
+    String uri = "https://api.football-data.org/v4/matches?date=2025-10-04";
 
     // Recycler data
     private RecyclerView recycler;
