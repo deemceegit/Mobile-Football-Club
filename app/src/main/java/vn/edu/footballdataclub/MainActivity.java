@@ -24,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter adapter = new ViewPagerAdapter(this);
         viewPager2.setAdapter(adapter);
 
+        SettingFragment settingFragment = new SettingFragment();
+
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.flLanguage, settingFragment)
+                .commit();
+
+
         new TabLayoutMediator(tabLayout, viewPager2, (tab, position) -> {
             ImageView imageView = new ImageView(this);
             switch (position) {

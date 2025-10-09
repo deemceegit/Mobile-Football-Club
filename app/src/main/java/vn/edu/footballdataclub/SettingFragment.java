@@ -76,11 +76,11 @@ public class SettingFragment extends Fragment {
     /** 🔹 Cập nhật text hiển thị trên nút **/
     private void updateButtonText() {
         if (currentLang.equals("en")) {
-            btnChangeLang.setText("Switch to french");
-            btnChangeLang.setBackgroundResource(R.drawable.flag_brit);
+//            btnChangeLang.setText("EN");
+            btnChangeLang.setBackgroundResource(R.drawable.lang_en);
         } else {
-            btnChangeLang.setText("Changer en anglais");
-            btnChangeLang.setBackgroundResource(R.drawable.flag_france);
+//            btnChangeLang.setText("FR");
+            btnChangeLang.setBackgroundResource(R.drawable.lang_fr);
         }
     }
 }

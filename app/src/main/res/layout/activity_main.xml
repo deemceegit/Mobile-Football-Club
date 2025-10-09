@@ -27,15 +27,18 @@
             app:tabIndicatorColor="#2F4F3B"
             android:layout_weight="1"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+        <FrameLayout
+            android:id="@+id/flLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
             android:text="FR"
             app:tabGravity="fill"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             >
 
-        </Button>
+        </FrameLayout>
 
     </LinearLayout>
 
