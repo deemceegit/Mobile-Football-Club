@@ -19,8 +19,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
                 return new ContinentsFragment();
             case 2:
                 return new MatchesFragment();
-            case 3:
-                return new SettingFragment();
             default:
                 return new HomeFragment();
         }
@@ -28,6 +26,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return 4;
+        return 3;
     }
 }

@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 case 2:
                     imageView.setImageResource(R.drawable.ic_calendar);
                     break;
-                case 3:
-                    imageView.setImageResource(R.drawable.ic_global);
-                    break;
             }
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(100, 100);
             imageView.setLayoutParams(params);
