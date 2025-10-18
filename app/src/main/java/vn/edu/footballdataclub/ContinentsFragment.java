@@ -67,7 +67,7 @@ public class ContinentsFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // Inflate layout of this fragment ->
 
         View view = inflater.inflate(R.layout.fragment_continents, container, false);
         ViewPager2 childViewPager = view.findViewById(R.id.vpChild);

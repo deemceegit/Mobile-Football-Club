@@ -102,12 +102,12 @@ public class MatchesFragment extends Fragment {
         recycler = view.findViewById(R.id.recycler);
         tvNoMatches = view.findViewById(R.id.tvNoMatches);
 
-        // Setup adapter and layout manager with a proper Context
+        // setup adapter, layout manager w/ Context
         adapter = new ScoreAdapter(items);
         recycler.setLayoutManager(new LinearLayoutManager(requireContext()));
         recycler.setAdapter(adapter);
 
-        // Instantiate the RequestQueue with a proper Context
+        // instantiate RequestQueue w/ Context
         RequestQueue queue = Volley.newRequestQueue(requireContext());
 
         MatchRequest request = new MatchRequest(Request.Method.GET, uri, new Response.Listener<String>() {

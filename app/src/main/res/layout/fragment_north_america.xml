@@ -26,7 +26,6 @@
             android:orientation="vertical"
 >
 
-            <!-- Card 1 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView1"
                 android:layout_width="match_parent"
@@ -91,7 +90,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1264"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -99,13 +98,12 @@
                         android:id="@+id/tvChange1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="0"
+                        android:textColor="#7E7E7E "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 2 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
                 android:layout_width="match_parent"
@@ -170,7 +168,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1248"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -178,13 +176,12 @@
                         android:id="@+id/tvChange2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="0"
+                        android:textColor="#7E7E7E "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 3 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView3"
                 android:layout_width="match_parent"
@@ -249,7 +246,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1240"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -258,12 +255,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:textColor="#2E7D32 "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 4 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView4"
                 android:layout_width="match_parent"
@@ -328,7 +324,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1239"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -336,13 +332,12 @@
                         android:id="@+id/tvChange4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
+                        android:text="+3"
                         android:textColor="#2E7D32"
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 5 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
                 android:layout_width="match_parent"
@@ -421,7 +416,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 6 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
                 android:layout_width="match_parent"
@@ -486,7 +480,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1228"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -494,13 +488,12 @@
                         android:id="@+id/tvChange6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="0"
+                        android:textColor="#7E7E7E "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 7 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView7"
                 android:layout_width="match_parent"
@@ -565,7 +558,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1225"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -573,13 +566,12 @@
                         android:id="@+id/tvChange7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="0"
+                        android:textColor="#7E7E7E "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 8 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView8"
                 android:layout_width="match_parent"
@@ -644,7 +636,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1218"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -652,13 +644,12 @@
                         android:id="@+id/tvChange8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="0"
+                        android:textColor="#7E7E7E "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 9 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView9"
                 android:layout_width="match_parent"
@@ -723,7 +714,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1211"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -731,13 +722,12 @@
                         android:id="@+id/tvChange9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="-2"
+                        android:textColor="#F44336 "
                         android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Card 10 -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView10"
                 android:layout_width="match_parent"
@@ -802,7 +792,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1234"
+                        android:text="1209"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 

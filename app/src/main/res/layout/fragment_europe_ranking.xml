@@ -41,7 +41,6 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -62,7 +61,6 @@
                         android:textStyle="bold" />
                 </LinearLayout>
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -76,7 +74,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
@@ -124,7 +121,6 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -146,7 +142,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -160,7 +155,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
@@ -207,7 +201,6 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -229,7 +222,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -243,7 +235,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="wrap_content"
@@ -290,7 +281,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -312,7 +303,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -326,7 +316,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView16"
                     android:layout_width="wrap_content"
@@ -373,7 +362,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -395,7 +384,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -409,7 +397,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="wrap_content"
@@ -456,7 +443,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -478,7 +465,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -492,7 +478,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView24"
                     android:layout_width="wrap_content"
@@ -539,7 +524,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -561,7 +546,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -575,7 +559,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView28"
                     android:layout_width="wrap_content"
@@ -622,7 +605,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -644,7 +627,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -658,7 +640,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView32"
                     android:layout_width="wrap_content"
@@ -705,7 +686,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -727,7 +708,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -741,7 +721,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView36"
                     android:layout_width="wrap_content"
@@ -788,7 +767,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <!--Logo and Club Name-->
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -810,7 +789,6 @@
                 </LinearLayout>
 
 
-                <!--Country-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
@@ -824,7 +802,6 @@
 
                 </LinearLayout>
 
-                <!--Point-->
                 <TextView
                     android:id="@+id/textView40"
                     android:layout_width="wrap_content"

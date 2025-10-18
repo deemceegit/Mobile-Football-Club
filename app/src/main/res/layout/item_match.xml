@@ -12,7 +12,6 @@
         android:layout_height="match_parent"
         android:padding="10dp">
 
-        <!-- Left: time and accent -->
         <TextView
             android:id="@+id/tvTime"
             android:layout_width="48dp"
@@ -25,7 +24,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
-        <!-- Center: teams -->
         <LinearLayout
             android:id="@+id/centerBlock"
             android:layout_width="0dp"

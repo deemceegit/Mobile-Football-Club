@@ -15,5 +15,6 @@
     <string name="rankSA">South America Football / Soccer Clubs Ranking</string>
     <string name="rankEurope">Europe Football / Soccer Clubs Ranking</string>
     <string name="no_matches">There is no match :(</string>
+    <string name="upMatch">Upcoming Matches</string>
 
 </resources>

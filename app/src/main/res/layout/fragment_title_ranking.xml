@@ -7,7 +7,6 @@
     android:background="#5F8A73"
     android:orientation="vertical">
 
-    <!--Title-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="70dp"

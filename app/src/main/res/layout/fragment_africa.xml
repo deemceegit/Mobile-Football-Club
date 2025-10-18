@@ -23,7 +23,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <!-- Club 1 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -97,7 +96,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 2 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -242,7 +240,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 4 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -314,7 +311,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 5 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -386,7 +382,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 6 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -459,7 +454,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 7 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -532,7 +526,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 8 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -604,7 +597,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 9 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -677,7 +669,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <!-- Club 10 -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

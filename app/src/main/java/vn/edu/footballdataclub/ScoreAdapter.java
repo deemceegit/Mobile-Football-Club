@@ -56,7 +56,7 @@ public class ScoreAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    // ---------- Header ViewHolder ----------
+    //  Header ViewHolder
     static class HeaderVH extends RecyclerView.ViewHolder {
         private TextView tvLeague, tvCountry;
 
@@ -72,7 +72,7 @@ public class ScoreAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    // ---------- Match ViewHolder ----------
+    //  Match ViewHolder
     static class MatchVH extends RecyclerView.ViewHolder {
         private TextView tvTime, tvHome, tvAway, tvScoreHome, tvScoreAway;
         private ImageView ivHome, ivAway;
@@ -92,7 +92,6 @@ public class ScoreAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
         void bind(final ListItem.Match match) {
             tvTime.setText(match.getTime());
-            // color LIVE red
             if (match.getTime() != null && "LIVE".equalsIgnoreCase(match.getTime())) {
                 tvTime.setTextColor(Color.RED);
             } else {
@@ -105,7 +104,7 @@ public class ScoreAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             tvScoreHome.setText(match.getHomeScore() != null ? String.valueOf(match.getHomeScore()) : "-");
             tvScoreAway.setText(match.getAwayScore() != null ? String.valueOf(match.getAwayScore()) : "-");
 
-            // Load logos with Glide (placeholder if null/empty)
+            // Load logos w/ Glide (placeholder if 0_/mt)
             String hLogo = match.getHomeLogoUrl();
             String aLogo = match.getAwayLogoUrl();
 

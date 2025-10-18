@@ -7,7 +7,7 @@ public abstract class ListItem {
 
     public abstract int getType();
 
-    // ---------- HEADER ----------
+    // HEADER
     public static class Header extends ListItem {
         private String league;
         private String country;
@@ -31,7 +31,7 @@ public abstract class ListItem {
         }
     }
 
-    // ---------- MATCH ----------
+    // MATCH
     public static class Match extends ListItem {
         private String id;
         private String time;

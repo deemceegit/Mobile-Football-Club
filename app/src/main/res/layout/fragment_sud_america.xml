@@ -490,7 +490,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1205"
+                        android:text="769"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -570,7 +570,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1205"
+                        android:text="768"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -578,8 +578,8 @@
                         android:id="@+id/tvChange7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="0"
+                        android:textColor="#7E7E7E "
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -650,7 +650,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1205"
+                        android:text="765"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -658,8 +658,8 @@
                         android:id="@+id/tvChange8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="-2"
+                        android:textColor="#F44336 "
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -730,7 +730,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1205"
+                        android:text="760"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -738,8 +738,8 @@
                         android:id="@+id/tvChange9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+1"
-                        android:textColor="#2E7D32"
+                        android:text="-4"
+                        android:textColor="#F44336 "
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -810,7 +810,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="6dp"
-                        android:text="1205"
+                        android:text="756"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
@@ -836,7 +836,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.14" />
+        app:layout_constraintGuide_begin="102dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

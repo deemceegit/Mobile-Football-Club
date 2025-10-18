@@ -22,7 +22,7 @@ import java.util.Locale;
  */
 public class SettingFragment extends Fragment {
 
-    private String currentLang = "en"; // mặc định ban đầu
+    private String currentLang = "en";
     private Button btnChangeLang;
 
     @Nullable
@@ -32,11 +32,10 @@ public class SettingFragment extends Fragment {
 
         btnChangeLang = view.findViewById(R.id.btnChangeLang);
 
-        // Đọc ngôn ngữ hiện tại từ SharedPreferences
+        // get current lang from SharedPreferences
         SharedPreferences prefs = requireActivity().getSharedPreferences("settings", Context.MODE_PRIVATE);
         currentLang = prefs.getString("lang", "en");
 
-        // Cập nhật text nút tương ứng
         updateButtonText();
 
         btnChangeLang.setOnClickListener(v -> {
@@ -48,18 +47,18 @@ public class SettingFragment extends Fragment {
                 currentLang = "en";
             }
 
-            // Lưu ngôn ngữ mới
+            // save new lang
             SharedPreferences.Editor editor = prefs.edit();
             editor.putString("lang", currentLang);
             editor.apply();
 
-            requireActivity().recreate(); // reload để áp dụng thay đổi
+            requireActivity().recreate(); // reload -> apply change
         });
 
         return view;
     }
 
-    /** 🔹 HÀM ĐỔI NGÔN NGỮ **/
+    /** func change lang **/
     private void setLocale(String langCode) {
         Locale locale = new Locale(langCode);
         Locale.setDefault(locale);
@@ -73,7 +72,6 @@ public class SettingFragment extends Fragment {
         );
     }
 
-    /** 🔹 Cập nhật text hiển thị trên nút **/
     private void updateButtonText() {
         if (currentLang.equals("en")) {
 //            btnChangeLang.setText("EN");
