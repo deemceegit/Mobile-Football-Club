@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.fragments;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,6 +15,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import java.util.Locale;
+
+import vn.edu.footballdataclub.R;
 
 /**
  * A simple {@link Fragment} subclass.

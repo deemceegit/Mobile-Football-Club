@@ -9,6 +9,9 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
+import vn.edu.footballdataclub.adapters.ViewPagerAdapter;
+import vn.edu.footballdataclub.fragments.SettingFragment;
+
 public class MainActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager2 viewPager2;

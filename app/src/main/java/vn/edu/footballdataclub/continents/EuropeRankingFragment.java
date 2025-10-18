@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.continents;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import vn.edu.footballdataclub.R;
 
 /**
  * A simple {@link Fragment} subclass.

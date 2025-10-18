@@ -1,8 +1,14 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import vn.edu.footballdataclub.continents.AfricaFragment;
+import vn.edu.footballdataclub.continents.AsiaFragment;
+import vn.edu.footballdataclub.continents.EuropeTitleAndRanking;
+import vn.edu.footballdataclub.continents.SudAmericaFragment;
+import vn.edu.footballdataclub.continents.north_america;
 
 public class ViewPagerAdapter4Continents extends FragmentStateAdapter {
 

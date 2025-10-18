@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.fragments;
 
 import android.os.Bundle;
 
@@ -14,6 +14,11 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import vn.edu.footballdataclub.Club;
+import vn.edu.footballdataclub.adapters.HomeRankingAdapter;
+import vn.edu.footballdataclub.R;
+import vn.edu.footballdataclub.adapters.SlideShowAdapter;
 
 public class HomeFragment extends Fragment {
     private ViewPager2 viewPager2;

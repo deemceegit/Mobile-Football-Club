@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.fragments;
 
 import android.os.Bundle;
 
@@ -31,6 +31,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
+
+import vn.edu.footballdataclub.ListItem;
+import vn.edu.footballdataclub.R;
+import vn.edu.footballdataclub.adapters.ScoreAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -98,7 +102,7 @@ public class MatchesFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // Initialize views using the inflated view
+        // inflate view
         recycler = view.findViewById(R.id.recycler);
         tvNoMatches = view.findViewById(R.id.tvNoMatches);
 
@@ -113,7 +117,7 @@ public class MatchesFragment extends Fragment {
         MatchRequest request = new MatchRequest(Request.Method.GET, uri, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                Log.d("uri", "response length=" + (response != null ? response.length() : 0));
+                Log.d("uri", "response_length=" + (response != null ? response.length() : 0));
                 try {
                     JSONObject root = new JSONObject(response);
                     JSONArray matches = root.optJSONArray("matches");
@@ -216,7 +220,7 @@ public class MatchesFragment extends Fragment {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
-                Log.e("uri", "onErrorResponse: " + volleyError.getLocalizedMessage());
+                Log.e("uri", "ErrorResponse: " + volleyError.getLocalizedMessage());
             }
         });
 

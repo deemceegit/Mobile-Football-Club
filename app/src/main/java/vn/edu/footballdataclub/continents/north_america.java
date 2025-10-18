@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.continents;
 
 import android.os.Bundle;
 
@@ -8,12 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import vn.edu.footballdataclub.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link EuropeTitleAndRanking#newInstance} factory method to
+ * Use the {@link north_america#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class EuropeTitleAndRanking extends Fragment {
+public class north_america extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +26,7 @@ public class EuropeTitleAndRanking extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public EuropeTitleAndRanking() {
+    public north_america() {
         // Required empty public constructor
     }
 
@@ -34,11 +36,11 @@ public class EuropeTitleAndRanking extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment EuropeTitleAndRanking.
+     * @return A new instance of fragment north_america.
      */
     // TODO: Rename and change types and number of parameters
-    public static EuropeTitleAndRanking newInstance(String param1, String param2) {
-        EuropeTitleAndRanking fragment = new EuropeTitleAndRanking();
+    public static north_america newInstance(String param1, String param2) {
+        north_america fragment = new north_america();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +61,6 @@ public class EuropeTitleAndRanking extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_europe_title_and_ranking, container, false);
+        return inflater.inflate(R.layout.fragment_north_america, container, false);
     }
 }

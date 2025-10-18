@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.continents;
 
 import android.os.Bundle;
 
@@ -11,10 +11,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
+
+import vn.edu.footballdataclub.R;
+import vn.edu.footballdataclub.adapters.ViewPagerAdapter4Continents;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.adapters;
 
 import android.view.View;
 import android.view.ViewGroup;

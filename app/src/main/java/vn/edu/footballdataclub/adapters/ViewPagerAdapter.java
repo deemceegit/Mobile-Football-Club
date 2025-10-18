@@ -1,9 +1,13 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+
+import vn.edu.footballdataclub.continents.ContinentsFragment;
+import vn.edu.footballdataclub.fragments.HomeFragment;
+import vn.edu.footballdataclub.fragments.MatchesFragment;
 
 public class ViewPagerAdapter extends FragmentStateAdapter {
     public ViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {

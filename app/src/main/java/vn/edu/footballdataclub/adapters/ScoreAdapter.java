@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.adapters;
 
 import android.graphics.Color;
 import android.view.LayoutInflater;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+
+import vn.edu.footballdataclub.ListItem;
 import vn.edu.footballdataclub.R;
 
 import java.util.List;

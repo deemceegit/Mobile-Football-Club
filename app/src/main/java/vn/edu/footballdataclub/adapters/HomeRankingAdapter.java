@@ -1,4 +1,4 @@
-package vn.edu.footballdataclub;
+package vn.edu.footballdataclub.adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
+import vn.edu.footballdataclub.Club;
+import vn.edu.footballdataclub.R;
 
 public class HomeRankingAdapter extends RecyclerView.Adapter<HomeRankingAdapter.ViewHolder>{
     private final List<Club> clubs;
